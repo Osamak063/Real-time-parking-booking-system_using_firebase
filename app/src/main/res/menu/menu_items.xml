@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/logout"
+        android:title="Log out"
+        ></item>
+    <item
+        android:id="@+id/location_Gulshan"
+        android:title="Gulshan"></item>
+    <item android:title="Gulistan-e-Johar"
+        android:id="@+id/location_Johar">
+    </item>
+    <item android:title="North Karachi"
+        android:id="@+id/location_northkhi">
+    </item>
+</menu>

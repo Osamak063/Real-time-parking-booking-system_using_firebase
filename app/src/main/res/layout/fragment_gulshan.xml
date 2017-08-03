@@ -1,0 +1,211 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.Gulshan">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Select Date"
+                android:textSize="@dimen/textsize" />
+
+            <EditText
+                android:id="@+id/gulshan_start_dd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="dd"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="@dimen/textsize" />
+
+            <EditText
+                android:id="@+id/gulshan_start_mm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="mm"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="@dimen/textsize" />
+
+            <EditText
+                android:id="@+id/gulshan_start_yyyy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="YYYY"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Start time"
+                android:textSize="@dimen/textsize" />
+
+            <Spinner
+                android:id="@+id/gulshan_start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbarSize="22dp" />
+
+            <Spinner
+                android:id="@+id/gulshan_start_mins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbarSize="22dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="22dp"
+                android:text="Duration"
+                android:textSize="@dimen/textsize" />
+
+            <Spinner
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:scrollbarSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="hrs"
+                android:textSize="@dimen/textsize" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/show_slots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Show available slots"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/gulshan_slot1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Slot1"
+                android:textSize="@dimen/textsize"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/gulshan_slot2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="Slot2"
+                android:textSize="@dimen/textsize"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/gulshan_slot3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Slot3"
+                android:textSize="@dimen/textsize"
+                android:visibility="invisible" />
+
+            <Button
+                  android:id="@+id/gulshan_slot4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="60dp"
+                  android:text="Slot4"
+                  android:textSize="@dimen/textsize"
+                  android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/gulshan_slot5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Slot5"
+                android:textSize="@dimen/textsize"
+                android:visibility="invisible" />
+
+            <Button
+                  android:id="@+id/gulshan_slot6"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="60dp"
+                  android:text="Slot6"
+                  android:textSize="@dimen/textsize"
+                  android:visibility="invisible" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "266441057038",
+    "firebase_url": "https://real-timeparkingbookingsystem.firebaseio.com",
+    "project_id": "real-timeparkingbookingsystem",
+    "storage_bucket": "real-timeparkingbookingsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266441057038:android:498038b683b33a94",
+        "android_client_info": {
+          "package_name": "com.example.osamakhalid.real_timeparkingbookingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266441057038-dq2rka8diadfjfdmii4f0nvpldcprjj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.osamakhalid.real_timeparkingbookingsystem",
+            "certificate_hash": "03208cbe0135412678266a2b2261ec70ad45da11"
+          }
+        },
+        {
+          "client_id": "266441057038-lmq45r88qjvjlcnubus8ab3oafb3enl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4ZyBQzdF2X1Vk0GxOzH8mCMRTg21PdMY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266441057038-lmq45r88qjvjlcnubus8ab3oafb3enl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
