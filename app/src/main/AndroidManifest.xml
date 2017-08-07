@@ -20,7 +20,8 @@
         <activity
             android:name=".LoginScreenNavigation"
             android:label="@string/title_activity_login_screen_navigation"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Reply_admin"></activity>
     </application>
 
 </manifest>

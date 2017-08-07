@@ -6,13 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginRight="35dp"
+    android:background="#FFFFFF"
     tools:context="com.example.osamakhalid.real_timeparkingbookingsystem.MainActivity">
 
     <TextView
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="35dp"
         android:text="Username or Email Address"
         android:textSize="@dimen/textsize"
         android:layout_marginLeft="@dimen/marginLeftText"
@@ -21,8 +22,9 @@
     <EditText
         android:id="@+id/email"
         android:hint="Enter your email address"
-        android:layout_width="@dimen/edittextWidth"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginRight="35dp"
         android:layout_marginTop="@dimen/marginTopEditText"
         android:layout_marginLeft="@dimen/marginLeftEditbox"
         />
@@ -30,6 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+
         android:text="Password"
         android:textSize="@dimen/textsize"
         android:layout_marginLeft="@dimen/marginLeftText"
@@ -37,7 +40,8 @@
     <EditText
         android:id="@+id/password"
         android:hint="Enter your password"
-        android:layout_width="@dimen/edittextWidth"
+        android:layout_width="match_parent"
+        android:layout_marginRight="35dp"
         android:inputType="textPassword"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/marginTopEditText"

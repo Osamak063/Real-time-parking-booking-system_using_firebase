@@ -12,14 +12,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:layout_marginTop="20dp"
         android:text="Parking Booking System"
         android:textSize="20dp"
+        android:textColor="#000000"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
-
-
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/carpic"
+        android:scaleType="fitStart"
+    />
 </LinearLayout>

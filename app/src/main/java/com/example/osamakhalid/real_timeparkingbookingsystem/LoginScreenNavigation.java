@@ -19,7 +19,9 @@ import com.google.firebase.auth.FirebaseAuth;
 import layout.AllBookings;
 import layout.Gulshan;
 import layout.MyBookings;
+import layout.SendFeedback;
 import layout.UsersListAdmin;
+import layout.ViewFeedbacks;
 
 public class LoginScreenNavigation extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -57,12 +59,16 @@ public class LoginScreenNavigation extends AppCompatActivity
                 MenuItem menuItem4=(MenuItem) menu.findItem(R.id.my_bookings);
                 MenuItem menuItem3=(MenuItem) menu.findItem(R.id.allbookings);
                 MenuItem menuItem5= (MenuItem) menu.findItem(R.id.users_list);
+                MenuItem menuItem6=(MenuItem) menu.findItem(R.id.sendfeedback);
+                MenuItem menuItem7=(MenuItem) menu.findItem(R.id.viewfeedbacks);
+                menuItem6.setVisible(false);
                 menuItem3.setVisible(true);
                 menuItem.setVisible(false);
                 menuItem1.setVisible(false);
                 menuItem2.setVisible(false);
                 menuItem4.setVisible(false);
                 menuItem5.setVisible(true);
+                menuItem7.setVisible(true);
             }
         }
         else if(type.equals("user")){
@@ -75,13 +81,16 @@ public class LoginScreenNavigation extends AppCompatActivity
                 MenuItem menuItem3=(MenuItem) menu.findItem(R.id.allbookings);
                 MenuItem menuItem4=(MenuItem) menu.findItem(R.id.my_bookings);
                 MenuItem menuItem5= (MenuItem) menu.findItem(R.id.users_list);
+                MenuItem menuItem6=(MenuItem) menu.findItem(R.id.sendfeedback);
+                MenuItem menuItem7=(MenuItem) menu.findItem(R.id.viewfeedbacks);
+                menuItem6.setVisible(true);
                 menuItem3.setVisible(false);
                 menuItem.setVisible(true);
                 menuItem1.setVisible(true);
                 menuItem2.setVisible(true);
                 menuItem4.setVisible(true);
                 menuItem5.setVisible(false);
-
+                menuItem7.setVisible(false);
             }
         }
 
@@ -184,6 +193,22 @@ public class LoginScreenNavigation extends AppCompatActivity
             FragmentTransaction ft6 = fm6.beginTransaction();
             ft6.replace(R.id.fragment_g, fragment);
             ft6.commit();
+        }
+        else if(id==R.id.sendfeedback){
+            getSupportActionBar().setTitle("Send Feedback");
+            fragment = new SendFeedback();
+            FragmentManager fm6 = getSupportFragmentManager();
+            FragmentTransaction ft6 = fm6.beginTransaction();
+            ft6.replace(R.id.fragment_g, fragment);
+            ft6.commit();
+        }
+        else if(id==R.id.viewfeedbacks){
+            getSupportActionBar().setTitle("Feedbacks");
+            fragment = new ViewFeedbacks();
+            FragmentManager fm7 = getSupportFragmentManager();
+            FragmentTransaction ft7 = fm7.beginTransaction();
+            ft7.replace(R.id.fragment_g, fragment);
+            ft7.commit();
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

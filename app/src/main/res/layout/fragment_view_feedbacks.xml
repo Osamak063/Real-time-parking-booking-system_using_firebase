@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.UsersListAdmin"
+    tools:context="layout.ViewFeedbacks"
     android:background="#FFFFFF"
     >
 
@@ -17,7 +17,7 @@
         android:layout_margin="20dp"
         tools:context="com.example.osamakhalid.campusrecruitmentsystem.LoginScreen">
         <ListView
-            android:id="@+id/users_list_admin"
+            android:id="@+id/viewfeedbacksadmin_listview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             >

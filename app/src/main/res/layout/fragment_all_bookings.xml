@@ -11,6 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_margin="20dp"
         tools:context="com.example.osamakhalid.campusrecruitmentsystem.LoginScreen">
         <ListView
             android:id="@+id/admin_allbookings"

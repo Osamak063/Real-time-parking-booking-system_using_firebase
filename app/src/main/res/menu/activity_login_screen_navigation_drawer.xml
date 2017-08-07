@@ -28,6 +28,15 @@
             android:title="Users List"
             >
         </item>
+        <item
+            android:id="@+id/sendfeedback"
+            android:title="Send Feedback"
+            >
+        </item>
+        <item
+            android:id="@+id/viewfeedbacks"
+            android:title="Feedbacks"
+            ></item>
     </group>
 
 </menu>
